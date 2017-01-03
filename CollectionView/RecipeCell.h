@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RecipeCell.h
 //  CollectionView
 //
 //  Created by Ashwin Tallapaka on 1/2/17.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
-{
-    
-}
+@interface RecipeCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *recipeImg;
 
 @end
-
